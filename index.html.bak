@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Portfolio</title>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="mobile-menu-open" class="shadow-large">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+    </div>
+    <!-- End #mobile-menu-toggle -->
+    <header>
+        <div id="mobile-menu-close">
+            <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
+        </div>
+        <ul id="menu" class="shadow">
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="#experience">Experience</a>
+            </li>
+            <li>
+                <a href="#education">Education</a>
+            </li>
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+            <li>
+                <a href="#skills">Skills</a>
+            </li>
+        </ul>
+    </header>
+    <!-- End header -->
+
+    <div id="lead">
+        <div id="lead-content">
+            <h1>Sahil Khosla</h1>
+            <h2>Network and Customer Support Engineer</h2>
+        </div>
+        <!-- End #lead-content -->
+
+        <div id="lead-overlay"></div>
+
+        <div id="lead-down">
+            <span>
+                <i class="fa fa-chevron-down" aria-hidden="true"></i>
+            </span>
+        </div>
+        <!-- End #lead-down -->
+    </div>
+    <!-- End #lead -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h2 class="heading">About Me</h2>
+                </div>
+                <div class="col-md-8">
+                    <p>
+                        Customer-focused Network Support Engineer with skills in a variety of computer operating systems, networks, applications, and hardware. 
+			Analytical and adept at resolving complex network and cloud issues.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End #about -->
+
+    <div id="experience" class="background-alt">
+        <h2 class="heading">Experience</h2>
+        <div id="experience-timeline">
+            <div data-date="Oct 2017 - Feb 2018">
+                <h3>Quick Response Technologies</h3>
+                <h4>Computer Technician</h4>
+                <p>
+                     Creating layouts, designs & drawings and conducting analysis to identify any technical issues.
+		     Performing the installation of the applications on the client environment, troubleshoot the issues, and backups of the data. 
+		     Provides technical support to the end-user for handling the technical faults. 
+		     Ability to respond to queries in a quick manner that results in a great user experience. 
+		     Taking care of the networking issues.
+                </p>
+            </div>
+
+            <div data-date="Jul 2018 - Jan 2019">
+                <h3>Greenpeace</h3>
+                <h4>IT Support Technician</h4>
+                <p>
+                        Perform analysis, diagnosis, and resolution of desktop problems for end-users
+			Install, configure, test, maintain, monitor, and troubleshoot end user workstations and related hardware and software in order to meet service level expectations
+			Technical writing specifications for purchase of hardware and peripherals
+			Capacity planning for meeting future hardware needs
+                </p>
+            </div>
+		
+            <div data-date="Jul 2019 - Jan 2021">
+                <h3>New Era IT</h3>
+                <h4>Desktop and Network Support TechnicianDesktop</h4>
+                <p>
+                        Maintain and Support Pakuranga College infrastructure such as servers, workstations, network devices and provide technical support to 3000 staff and students.
+			Troubleshoot level 1-3 network, and system issues
+			Install & maintain software for the college such as 3CX / PBX, Adobe, G-suit, Apple, and Microsoft products
+			Give training to the new technicians.
+			Proficient in various technologies such as connect wise, windows servers, Azure Active Directory, group policy, FortiGate firewall, exchange, wireless access points, VMware vsphere / Esxi, veeam, Hyper-v, printers, projectors
+			Good hands-on scripting tools such as Bash, and PowerShell
+                </p>
+            </div>
+
+            <div data-date="September 2015 – September 2016">
+                <h3>Network for Learning (N4L)</h3>
+                <h4>Network and Customer Support Engineer</h4>
+                <p>
+                     Escalation point for N4L Customer Support team and other services teams.
+			Support the delivery and promotion of N4L services.
+			Provision of technical solutions for delivery and improved experience of N4L products and services.
+			Work collaboratively with the Tier 1/Level 1 team
+			Training, documentation, and knowledge sharing both internally i.e. Tier 1/Level1 team, and externally i.e. schools, and ICT partners.
+			Build and maintain a knowledge base of technical information.
+			Develop templates to assist in the creation of standardized solutions.
+			Identify risks and issues associated with the installation and support of complex solutions.
+			Playing an active role in any change control.
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- End #experience -->
+
+    <div id="education">
+        <h2 class="heading">Education</h2>
+        <div class="education-block">
+            <h3>Aspire2 International</h3>
+            <span class="education-date">Jan 2017 - Nov 2017</span>
+            <h4>New Zealand Diploma in Information Technology Technical Support in Level 5</h4>
+            <p>
+                    Completed Modules:
+		    Modern Data Communications
+		    Applied Communications
+		    Systems and Applications Support
+		    Systems Installation and Maintenance
+		    Application Design and Development
+		    Database Development and Design
+
+            </p>
+        </div>
+        <!-- End .education-block -->
+
+        <div class="education-block">
+            <h3>TIA - Tasman International Academies</h3>
+            <span class="education-date">Jan 2018 - Apr 2019</span>
+            <h4>Graduate Diploma in ICT Support and Operations in Level-7</h4>
+            <ul>
+                <li>
+                    Installation & Support for a Multi-user, Server Operating System,ICT Network Management
+
+                </li>
+                <li>
+                    Advanced Windows Server Management, Conﬁguration and Deployment of Cloud ICT Infrastructure, ICT Service Management
+
+                </li>
+                <li>
+                    Network Security, Cyber Security, Structure Query Language Server Service
+                </li>
+            </ul>
+        </div>
+        <!-- End .education-block -->
+    </div>
+    <!-- End #education -->
+
+    <div id="projects" class="background-alt">
+        <h2 class="heading">Projects</h2>
+        <div class="container">
+            <div class="row">
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/n4l.jpg" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Secure Access Migration for the schools</h3>
+                        <p>
+                              We’re setting up a way for schools to manage who can access the network, and what they’re able to do when they’re on it. (We’re using a solution called Cloudpath by Ruckus for this.)
+			      It means devices signing onto your network will get unique login details, which identify which part of the network they can access and what they’ll be able to do when they’re on it. When the device is signed into the network for the first time, it will be recognized from then on - meaning you only need to log on once as the user’s device remembers it. (This is also referred to as ‘device onboarding’).
+                        </p>
+                        <a href="https://support.n4l.co.nz/s/article/School-Network-Upgrade-Secure-Access-Phase-3">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/mechanical.jpg" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Website Developed for friend</h3>
+                        <p>
+                            Website develped for my friend for starting his mechanical work.
+                        </p>
+                        <a href="https://mechanicaldoctors.github.io/">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+            </div>
+        </div>
+    </div>
+    <!-- End #projects -->
+
+    <div id="skills">
+        <h2 class="heading">Skills</h2>
+        <ul>
+            <li>PowerShell</li>
+            <li>Python</li>
+            <li>IT Operations</li>
+            <li>Network Administration</li>
+            <li>Cybersecurity</li>
+            <li>Troubleshooting</li>
+            <li>IT Service Management</li>
+            <li>Cloud Computing</li>
+            <li>Wireshark</li>
+            <li>Operating System Administration</li>
+            <li>System Monitoring</li>
+            <li>Fortigate and Fortinet</li>
+            <li>Google Cloud Platform (GCP)</li>
+            <li>VMware vSphere</li>
+            <li>System Center Configuration Manager (SCCM)</li>
+            <li>Cisco</li>
+            <li>Grafana</li>
+            <li>Mimecast</li>
+            <li>Proofpoint</li>
+            <li>Microsoft Exchange</li>
+            <li>Office 365</li>
+            <li>Technical Support</li>
+            <li>ITIL Certified</li>
+        </ul>
+    </div>
+    <!-- End #skills -->
+
+        <!-- End #-form -->
+    </div>
+    <!-- End #contact -->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-5 copyright">
+                    <p>
+                        Copyright &copy; <span id="current-year">2023</span> Sahil Khosla                    
+		    </p>
+                </div>
+                <div class="col-sm-2 top">
+                    <span id="to-top">
+                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                    </span>
+                </div>
+                <div class="col-sm-5 social">
+                    <ul>
+                        
+			<li>
+                            <a href="https://www.linkedin.com/in/sahil-" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End footer -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/scripts.min.js"></script>
+</body>
+
+</html>
